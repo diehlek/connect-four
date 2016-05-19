@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ConnectFour!</title>
+    <link rel="stylesheet" href="board.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Connect Four Game</h1>
+	</br>
+	<p>Welcome to the Connect Four Game. The userlist
+	on the right says which user controls which color. In short
+	the first player to connect four "O" on the board - either
+	vertically, horizontally, or diagonally - wins. Good Luck!</p>
+	<a href = "https://en.wikipedia.org/wiki/Connect_Four"> 
+	Click here for more info about the game</a>
+	<p></p>
+	
+	<table >
+		<tr>
+			<td><p id = "p61">O</p></td>
+			<td><p id = "p62">O</p></td>
+			<td><p id = "p63">O</p></td>
+			<td><p id = "p64">O</p></td>
+			<td><p id = "p65">O</p></td>
+			<td><p id = "p66">O</p></td>
+			<td><p id = "p67">O</p></td>
+ 		</tr>
+ 		<tr>
+			<td><p id = "p51">O</p></td>
+			<td><p id = "p52">O</p></td>
+			<td><p id = "p53">O</p></td>
+			<td><p id = "p54">O</p></td>
+			<td><p id = "p55">O</p></td>
+			<td><p id = "p56">O</p></td>
+			<td><p id = "p57">O</p></td>
+ 		</tr>
+ 		<tr>
+			<td><p id = "p41">O</p></td>
+			<td><p id = "p42">O</p></td>
+			<td><p id = "p43">O</p></td>
+			<td><p id = "p44">O</p></td>
+			<td><p id = "p45">O</p></td>
+			<td><p id = "p46">O</p></td>
+			<td><p id = "p47">O</p></td>
+ 		</tr>
+ 		<tr>
+			<td><p id = "p31">O</p></td>
+			<td><p id = "p32">O</p></td>
+			<td><p id = "p33">O</p></td>
+			<td><p id = "p34">O</p></td>
+			<td><p id = "p35">O</p></td>
+			<td><p id = "p36">O</p></td>
+			<td><p id = "p37">O</p></td>
+ 		</tr>
+ 		<tr>
+			<td><p id = "p21">O</p></td>
+			<td><p id = "p22">O</p></td>
+			<td><p id = "p23">O</p></td>
+			<td><p id = "p24">O</p></td>
+			<td><p id = "p25">O</p></td>
+			<td><p id = "p26">O</p></td>
+			<td><p id = "p27">O</p></td>
+ 		</tr>
+ 		<tr>
+			<td><p id = "p11">O</p></td>
+			<td><p id = "p12">O</p></td>
+			<td><p id = "p13">O</p></td>
+			<td><p id = "p14">O</p></td>
+			<td><p id = "p15">O</p></td>
+			<td><p id = "p16">O</p></td>
+			<td><p id = "p17">O</p></td>
+ 		</tr>
+ 		<tr>
+			<th>
+ 				<button  id = "col1" onclick = "col1Function()">Col1</button>
+			</th>
+			<th>
+ 				<button  id = "col2" onclick = "col2Function()">Col2</button>
+			</th>
+			<th>
+				<button  id = "col3" onclick = "col3Function()">Col3</button>
+			</th>
+			<th>
+				<button  id = "col4" onclick = "col4Function()">Col4</button>
+			</th>
+			<th>
+				<button  id = "col5" onclick = "col5Function()">Col5</button>
+			</th>
+			<th>
+				<button  id = "col6" onclick = "col6Function()">Col6</button>
+			</th>
+			<th>
+				<button  id = "col7" onclick = "col7Function()">Col7</button>
+			</th>
+		</tr>
+	</table>
+	
+    <div id="chatControls">
+        <input id="message" placeholder="Type your message">
+        <button id="send">Send</button>
+    </div>
+    <ul id="userlist"> <!-- Built by JS --> </ul>
+    <div id="chat">    <!-- Built by JS --> </div>
+    <script src="webSocket.js"></script>
+
+</body>
+</html>

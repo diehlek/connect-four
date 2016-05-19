@@ -1,0 +1,53 @@
+table, th, td {
+ 	border: 1px solid black;
+ 	text-align: center;
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+th, td {
+    border-bottom: black ;
+}
+#p11 { color: white; }
+#p12 { color: white; }
+#p13 { color: white; }
+#p14 { color: white; }
+#p15 { color: white; }
+#p16 { color: white; }
+#p17 { color: white; }
+#p21 { color: white; }
+#p22 { color: white; }
+#p23 { color: white; }
+#p24 { color: white; }
+#p25 { color: white; }
+#p26 { color: white; }
+#p27 { color: white; }
+#p31 { color: white; }
+#p32 { color: white; }
+#p33 { color: white; }
+#p34 { color: white; }
+#p35 { color: white; }
+#p36 { color: white; }
+#p37 { color: white; }
+#p41 { color: white; }
+#p42 { color: white; }
+#p43 { color: white; }
+#p44 { color: white; }
+#p45 { color: white; }
+#p46 { color: white; }
+#p47 { color: white; }
+#p51 { color: white; }
+#p52 { color: white; }
+#p53 { color: white; }
+#p54 { color: white; }
+#p55 { color: white; }
+#p56 { color: white; }
+#p57 { color: white; }
+#p61 { color: white; }
+#p62 { color: white; }
+#p63 { color: white; }
+#p64 { color: white; }
+#p65 { color: white; }
+#p66 { color: white; }
+#p67 { color: white; }
